@@ -87,6 +87,7 @@
             this.txtM.Name = "txtM";
             this.txtM.Size = new System.Drawing.Size(100, 25);
             this.txtM.TabIndex = 4;
+            this.txtM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtM_KeyUp);
             // 
             // txtKM
             // 
@@ -95,6 +96,7 @@
             this.txtKM.Size = new System.Drawing.Size(100, 25);
             this.txtKM.TabIndex = 5;
             this.txtKM.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.txtKM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtKM_KeyUp);
             // 
             // txtYard
             // 
@@ -102,6 +104,7 @@
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(100, 25);
             this.txtYard.TabIndex = 11;
+            this.txtYard.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtYard_KeyUp);
             // 
             // txtFt
             // 
@@ -109,6 +112,7 @@
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(100, 25);
             this.txtFt.TabIndex = 10;
+            this.txtFt.TextChanged += new System.EventHandler(this.txtFt_TextChanged);
             // 
             // txtIn
             // 
@@ -116,6 +120,7 @@
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(100, 25);
             this.txtIn.TabIndex = 9;
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // label4
             // 
