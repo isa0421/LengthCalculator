@@ -17,6 +17,14 @@ namespace LengthCalculator
             InitializeComponent();
         }
 
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+        }
+        private void label3_Click(object sender, EventArgs e)
+        {
+        }
+
+
         private void txtCM_KeyUp(object sender, KeyEventArgs e)
         {
             double douCM; 
